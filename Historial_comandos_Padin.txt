@@ -1,0 +1,252 @@
+ls -l
+ls
+cd
+cd repogit
+pwd
+cd ..
+ls
+cd..
+mkdir pitito10
+ls
+cd pitito10/
+ls
+rm
+ls
+rm pitito10
+rm -r pitito10
+ls
+ssh-keygen -t ed25519
+cat 
+franc@pc MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/jammy64' version '20241002.0.0' is up to date...
+==> default: Resuming suspended VM...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes...
+==> default: Machine booted and ready!
+==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run always will still run.
+==> default: Machine 'default' has a post `vagrant up` message. This is a message
+==> default: from the creator of the Vagrantfile, and not from Vagrant itself:
+==> default:
+==> default:   ###########################################################################
+==> default:   #
+==> default:   # Para Ingresar a la VM puede usar cualquiera de las dos opciones:
+==> default:   #
+==> default:   ###########################################################################
+==> default:   # 1. (usar Vagrant)
+==> default:
+==> default:   vagrant ssh
+==> default:
+==> default:   # 2. Usar SSH indicando la key Privada
+==> default:   # Puede usar la private_key proporcionada por vagrant
+==> default:
+==> default:   ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@192.168.56.2
+==> default:
+franc@pc MINGW64 /c/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant ssh
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-140-generic x86_64)
+Expanded Security Maintenance for Applications is not enabled.
+0 updates can be applied immediately.
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+New release '24.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+Last login: Sun May 18 03:01:40 2025 from 10.0.2.2
+vagrant@VMPruebas:~$ ls
+README  carpeta_compartida  pitito10  repogit
+vagrant@VMPruebas:~$ rm
+rm: missing operand
+Try 'rm --help' for more information.
+vagrant@VMPruebas:~$ ls
+README  carpeta_compartida  pitito10  repogit
+vagrant@VMPruebas:~$ rm pitito10
+rm: cannot remove 'pitito10': Is a directory
+vagrant@VMPruebas:~$ rm -r pitito10
+vagrant@VMPruebas:~$ ls
+README  carpeta_compartida  repogit
+vagrant@VMPruebas:~$ ssh-keygen -t ed25519
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/vagrant/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/vagrant/.ssh/id_ed25519
+Your public key has been saved in /home/vagrant/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:x9ybQ/TPDsCKiTBGsc5ftYypzkzeOqaSeGP+CT91Vpg vagrant@VMPruebas
+The key's randomart image is:
++--[ED25519 256]--+
+|    .            |
+|     o           |
+|    o    o. .    |
+|   +    EB.= .   |
+|    *   S.* = .  |
+|   . +.+o+ o + o |
+| ... .=oo . + . o|
+|. *o.Bo.     . o |
+| +.+=+*o.       .|
++----[SHA256]-----+
+vagrant@VMPruebas:~$ cat
+
+ssh-keygen -t ed25519
+cat .ssh/id_ed25519.pub
+cd repogit
+git clone git@github.com:franco19-yl/TP_AySO_211_Padin_Franco.git
+ls 
+cd t
+cd TP_AySO_211_Padin_Franco/
+cat /etc/os-release
+man grep
+cat /etc/os-release
+home_url
+grep -i HOME_URL /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+grep -i HOME_URL /etc/os-release
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+cd /vagrant    # o la ruta de tu proyecto
+pwd
+git add
+ls -a
+cd repogit
+ls -a
+TP_AySO_211_Padin_Franco
+cd TP_AySO_211_Padin_Franco
+git ini
+cat /etc/os-release
+--ignore-case
+-i
+-l
+grep -i "ubuntu" /etc/os-release
+whoami
+id -un
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git init
+git config --global user.name "francopadin19-yl"
+git config --global user.email "francopadin7@gmail.com"
+git add
+git commit -m "feat: agregar archivo datos_usuario.txt con nombre de usuario"
+git commit -m "agregar archivo de usuario"
+mkdir repogit
+cd repogit
+git clone <git@github.com:franco19-yl/TP_AySO_211_Padin_Franco.git>
+git clone git@github.com:franco19-yl/TP_AySO_211_Padin_Franco.git
+cd git@github.com:franco19-yl/TP_AySO_211_Padin_Franco.git
+cd repogit
+git clone git@github.com:franco19-yl/TP_AySO_211_Padin_Franco.git
+cd repogit
+pwd
+ls -
+cd repogit
+git clone git@github.com:franco19-yl/TP_AySO_211_Padin_Franco.git
+cd repogit
+ls
+pwd
+cat /etc/os-release
+whoami
+id-
+id -un
+exit
+whoami
+exit
+cd /vagrant/Tp_ayso_211_padin_franco
+cd repogit
+ls-
+ls
+t
+cd repogit
+ls
+cd tp_ayso_211_padin_franco
+ls
+cd TP_AySO_211_Padin_Franco
+git add .
+git add
+git add .
+git config…..
+git config ..
+git config .
+git config
+pwd
+git congif
+francopadin7@gmail.com
+pwd
+git config --global user.email francopadin7@gmail.com
+git config franco19-yl
+git config --global user.name franco19-yl
+datos_usuario.txt
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt" 
+git status
+git push
+find /vagrant -name datos_usuarios.txt
+sudo find / -name datos_usuarios.txt 2>/dev/null
+grep
+tail -n1
+cd repogit
+cd repogit TP_AySO_211_Padin_Franco
+cd TP_AySO_211_Padin_Franco
+Alumno: Franco Padin
+División: 211
+Turno: Tarde
+EOF
+cd README.md
+mkdir README.md
+cd readme.md
+ls -l README.md
+cd repogit TP_AySO_211_Padin_Franco
+cd README.md
+cat << EOF >> README.md
+Alumno: Franco Padin
+División: 211 
+Turno: Tarde
+EOF
+
+cat README.md
+pwd
+mkdir -p materia1/uni1 materia1/uni2 materia1/uni3 materia2/uni1 materia2/uni2 materia2/uni3
+ls -r
+tree
+sudo snap install tree
+tree
+cd repogit
+ls
+ls -l
+cd ..
+ls -l
+cd ..
+pwd
+ls -l
+cd datos_usuarios.txt
+cat datos_usuraios.txt
+cat datos_usuario.txt
+cd repogit
+cd TP_AySO_211_Padin_Franco
+ls -l
+cat README.md
+git status
+git add .
+git status
+git commit -m "modifique el readme"
+git push
+cat repogit
+cd repogit
+logout
+cd repogit
+ls- l
+ls -l
+cd TP_AySO_211_Padin_Franco/
+cat <<EOF > script_dir.sh
+#!/bin/bash
+mkdir -p ~/materia1/uni1 ~/materia1/uni2 ~/materia1/uni3 ~/materia2/uni1 ~/materia2/uni2 ~/materia2/uni3
+
+EOF
+
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
+cp cp ~/.bash_history ./Historial_comandos_Padin.txt
